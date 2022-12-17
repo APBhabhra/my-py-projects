@@ -1,12 +1,12 @@
 class atm
-atm=int(input("Enter your card number))
-atm=int(input("Enter your pin number"))
-atm=input("pick a procedure")
-if(CashWithdrawl):
+card=int(input("Enter your card number))
+pin=int(input("Enter your pin number"))
+procedure=input("pick a procedure")
+if procedure = "Withdrawel":
     Print("Money Widthdrawed")
-elif(Pin change):
+if procedure = "change pin"
     Print("ok pin has been changed")
-elif(other services):
+if procedure = "connect to local bank"
     print("ok connecting to your local bank")
-else():
+else:
     print("sorry could not find what you were looking for")
